@@ -26,12 +26,12 @@ footer{
     margin: 0;
 }
 
-h1{ font-size: 14px;}
+h1{ font-size: 30px;}
 h2{ font-size: 14px;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
+h3{ font-size: 14px;}
+p{ font-size: 14px;}
 ul{ list-style: none;}
-li{ font-size: 1.25em;}
+li{ font-size: 14px;}
 
 button{
     font-size: 1.25em;
