@@ -133,6 +133,11 @@ header a:hover{
     padding: 150px 12px;
 }
 
+#nuestros-programas .container h2{
+    margin-top: 0;
+    font-size: 14px;
+}
+
 #nuestros-programas h2{
     margin-top: 0;
     font-size: 14px;
