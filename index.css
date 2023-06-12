@@ -80,26 +80,26 @@ intro{
     text-align: center;
     padding: 200px 12px;
 }
-#nuestros-programas{
+#objGE{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
 }
-#nuestros-programas .container{
+#objGE .container{
     padding: 150px 12px;
 }
-#nuestros-programas .container h2{
+#objGE .container h2{
     margin-top: 0;
     font-size: 14px;
 }
-#nuestros-programas h2{
+#objGE h2{
     margin-top: 0;
     font-size: 14px;
 }
-#nuestros-programas p{
+#objGE p{
     display: none;
 }
-#nuestros-programas .carta{
+#objGE .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
