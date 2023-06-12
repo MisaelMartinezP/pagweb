@@ -75,7 +75,7 @@ header a{
 header a:hover{
     color: blueviolet;
 }
-#hero{
+#caracateristicas {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,11 +92,8 @@ header a:hover{
     background-size: cover;
     background-position: center center;
 }
-#hero h1{
+#caracateristicas h1{
     color: white;
-}
-#hero button{
-    font-size: 1.75em;
 }
 #somos-proya .container{
     text-align: center;
