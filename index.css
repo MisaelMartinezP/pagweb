@@ -1,349 +1,348 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+}
+/* No olvides suscribirte a AlexCG Design */
+/* Header */
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url(Skewed.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+header .textos {
+    margin-top: 152px;
 }
 
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
-
-button{
-    font-size: 1.25em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background-color: blueviolet;
+header .titulo {
+    font-size: 85px;
 }
 
-button:hover{
-    background-color: rgb(101, 33, 165);
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
 }
 
-.container{
-    max-width: 1400px;
+header .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+/* Main */
+
+.sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+
+.acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    font-weight: 300;
+    border: 1px solid rgba(24, 16, 16, .7);
+    color: rgb(24, 16, 16);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.815);
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
     margin: auto;
 }
 
-.color-acento{ color:blueviolet; }
-
-header{
-    background-color: rgb(245,245,245);
-
-}
-
-header .logo{
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: blueviolet;
-    font-size: 1.6em;
-}
-
-header .container{
+.cards {
+    width: 100%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-header nav{
+.card {
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+}
+
+.cards img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.fondo {
+    height: 900px;
+    position: relative;
+    background-image: url(fondo.png);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+}
+
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #2c3e50 transparent;
+}
+
+.titulo-patrocinadores,
+.subtitulo-patrocinadores {
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-patrocinadores {
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patrocinadores {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+.clientes {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cliente {
+    width: 30%;
+}
+
+.cliente img {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background: #2c3e50;
+    height: auto;
+}
+
+.titulo-footer,
+.subtitulo-footer {
+    color: #fff;
     text-align: center;
-    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 56px;
 }
 
-header a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+.subtitulo-footer {
+    font-size: 16px;
+    margin-bottom: 64px;
 }
 
-header a:hover{
-    color: blueviolet;
-}
-
-#hero{
+form {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
-#hero h1{
-    color: white;
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
 }
 
-#hero button{
-    font-size: 1.75em;
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-top: 5px solid rgba(255, 255, 255, 0.7);
 }
 
-#somos-proya .container{
-    text-align: center;
-    padding: 200px 12px;
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    margin-bottom: 16px;
 }
 
-#nuestros-programas{
-    background-color: rgb(30,30,30);
-    color: white;
-    text-align: center;
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
 }
 
-#nuestros-programas .container{
-    padding: 150px 12px;
-}
+/* Responsive */
 
-#nuestros-programas h2{
-    margin-top: 0;
-    font-size: 3.2em;
-}
-
-#nuestros-programas p{
-    display: none;
-}
-
-#nuestros-programas .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
-}
-
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/front-end.jpg");
-
-}
-
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/full-stack.jpg");
-}
-
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/python.jpg");
-
-}
-
-#caracteristicas .container{
-    text-align: center;
-    padding: 250px 12px;
-}
-
-#caracteristicas li{
-    margin: 16px 0px;
-    font-weight: bold;
-}
-
-#final{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(30,30,30);
-    color: white;
-    height: 80vh;
-}
-
-#final h2{
-    font-size: 9vw;
-}
-
-#final button{
-    font-size: 5vw;
-}
-
-footer{
-    background-color: rgb(230,230,230);
-}
-
-footer p{
-    margin: 0;
-    padding: 12px;
-    color: rgb(100,100,100);
-}
-
-footer .container{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-@media (min-width: 850px){
-    header{
-        position: fixed;
-        width: 100%;
-    }
-
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
-
-    #hero h1{
-        font-size: 5em;
-    }
-
-    #somos-proya .container{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    #somos-proya .texto{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #somos-proya h2{
-        margin-top: 0px;
-    }
-
-    #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
-        background-size: cover;
-        background-position: center center;
-        height: 500px;
-        width: 400px; 
-    }
-
-    #nuestros-programas .programas{
-        display: flex;
-        justify-content: center;
-    }
-
-    #nuestros-programas p{
-        display: block;
-        margin-bottom: 30px;
-    }
-
-    #nuestros-programas h2{
-        font-size: 4em;
-    }
-
-    #nuestros-programas h3{
-        margin-top: 0;
-    }
-
-    #nuestros-programas .carta{
-        padding: 50px;
-        background-size: 100% 150px;
-        background-repeat: no-repeat;
-        background-position-y: 0;
-        background-color: rgba(50, 50, 50, 1);
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    }
-
-    .carta:first-child{
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/front-end-cropped.jpg");
-
-    }
-
-    .carta:nth-child(2){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/full-stack-cropped.jpg");
-    }
-
-    .carta:nth-child(3){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/python-cropped.jpg");
-
-    }
-
-    #caracteristicas{
-        background-image: url("media/background-2.jpeg");
-        background-repeat: no-repeat;
-        background-size: 500px 400px;
-        background-position: calc(100vw - 500px) 120px;
-    }
-
-    #caracteristicas .container{
-        text-align: initial;
-    }
-
-    #caracteristicas ul{
-        margin-left: 100px;
-    }
-
-    #final h2{
-        font-size: 5em;
-    }
-
-    #final button{
-        font-size: 2em;
-    }
-
-    footer .container{
-        justify-content: flex-end;
+@media screen and (max-width:900px) {
+    .card {
+        width: 48%;
     }
 }
 
-@media (min-width: 1200px) {
-    #caracteristicas{
-        background-position-x: calc(100vw - 800px);
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
     }
-}
+    header .titulo {
+        font-size: 75px;
+    }
+    .none {
+        display: none
+    }
+    .imagenes {
+        flex-grow: 1;
+    }
+    .card {
+        width: 90%;
+    }
+    .fondo {
+        height: auto;
+    }
+    .especial {
+        display: none;
+    }
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
