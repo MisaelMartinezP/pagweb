@@ -87,7 +87,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/hero.jpg");
+    ,url("1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -136,7 +136,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("2.jpg");
 }
 .carta:nth-child(2){
     background-image: linear-gradient(
@@ -144,7 +144,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("3.jpg");
 }
 .carta:nth-child(3){
     background-image: linear-gradient(
@@ -152,7 +152,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("4.jpg");
 }
 #caracteristicas .container{
     text-align: center;
@@ -226,7 +226,7 @@ footer .container{
         margin-top: 0px;
     }
     #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
+        background-image: url("5.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -260,7 +260,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("6.jpg");
     }
     .carta:nth-child(2){
         background-image: linear-gradient(
@@ -268,7 +268,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("7.jpg");
     }
     .carta:nth-child(3){
         background-image: linear-gradient(
@@ -276,10 +276,10 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("1.jpg");
     }
     #caracteristicas{
-        background-image: url("media/background-2.jpeg");
+        background-image: url("2.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
