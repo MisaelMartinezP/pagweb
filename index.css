@@ -108,12 +108,10 @@ header a:hover{
 #nuestros-programas .container{
     padding: 150px 12px;
 }
-
 #nuestros-programas .container h2{
     margin-top: 0;
     font-size: 14px;
 }
-
 #nuestros-programas h2{
     margin-top: 0;
     font-size: 14px;
@@ -170,11 +168,8 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    )
-    ,url("4.jpg");
-}
-#tipos h2{
-    font-size: 9vw;
+Expand All
+	@@ -181,14 +178,11 @@ header a:hover{
 }
 
 #contaminacion{
@@ -186,12 +181,8 @@ header a:hover{
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("4.jpg");
-}
-#contaminacion h2{
-    font-size: 9vw;
+Expand All
+	@@ -201,14 +195,11 @@ header a:hover{
 }
 
 #tiposconta{
@@ -203,13 +194,8 @@ header a:hover{
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("4.jpg");
-}
-#tiposconta h2{
-    font-size: 9vw;
-}
+Expand All
+	@@ -222,14 +213,11 @@ header a:hover{
 
 
 #causas{
@@ -221,13 +207,8 @@ header a:hover{
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("4.jpg");
-}
-#causas h2{
-    font-size: 9vw;
-}
+Expand All
+	@@ -243,14 +231,11 @@ header a:hover{
 
 
 #como{
@@ -239,13 +220,8 @@ header a:hover{
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("4.jpg");
-}
-#como h2{
-    font-size: 9vw;
-}
+Expand All
+	@@ -264,30 +249,24 @@ header a:hover{
 
 
 #miembros{
@@ -267,6 +243,43 @@ header a:hover{
     padding: 50px 0px;
     margin: 30px;
     border-radius: 15px;
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("4.jpg");
+}
+#final h2{
+    font-size: 9vw;
+}
+#final button{
+    font-size: 5vw;
+}
+footer{
+    background-color: rgb(230,230,230);
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@media (min-width: 850px){
     header{
         position: fixed;
         width: 100%;
